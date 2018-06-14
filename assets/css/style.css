@@ -1,0 +1,11 @@
+.wrapper {
+    background-image: url(../images/subtle_background.png)
+}
+
+header {
+    background-color: #ffffff;
+}
+
+#name {
+    background-color: #4aaaa5;
+}
