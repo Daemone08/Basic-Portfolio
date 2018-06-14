@@ -8,4 +8,23 @@ header {
 
 #name {
     background-color: #4aaaa5;
+    width: 200px;
+    padding: 24px 0px;
 }
+
+h1  {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    display: block;
+}
+
+#links {
+    float: right;
+}
+
+
