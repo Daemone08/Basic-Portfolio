@@ -10,29 +10,31 @@
 <body>
     <div class="wrapper">
         <header>
-            <div id="name">
-                <h1>Kyle Behm</h1>
-            </div>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="header_items">
+                <div id="name">
+                    <h1>Kyle Behm</h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">About</a></li> 
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>   
         </header>
         <div class="maintext">
             <h2>Contact</h2>
             <form action="/action_page.php">
                 Name<br>
-                <input type="text" name="name" value="John Smith"><br>
+                <input class="form_text" type="text" name="name" value=" John Smith"><br>
                 Email<br>
-                <input type="email" name="email" value="example@gmail.com"><br>
+                <input class="form_text" type="text" name="email" value=" example@gmail.com"><br>
                 Message<br>
-                <textarea name="message" rows="10" cols="30"></textarea><br>
-                <input type="submit" value="Submit">
+                <textarea class="form_text" name="message" rows="10" cols="30"></textarea><br>
+                <input type="submit" value="Submit" class="submit">
             </form>
         </div>
         <footer>
-            <p class="copyright">copyright</p>
+                <p class="copyright">Copyright &copy;</p>
         </footer>
     </div>   
 </body>
